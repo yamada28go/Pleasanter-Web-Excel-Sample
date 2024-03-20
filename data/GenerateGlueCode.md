@@ -3,6 +3,6 @@
 pleasanter接続用のモックは以下コードで生成します。
 
 ```bash
-docker run --rm -v $(pwd):/local yamada28go/hack-pleasanter-api-cli2:0.10 /local Generation --config GenerateConfig.xml  export.json
+docker run --rm -v $(pwd):/local yamada28go/hack-pleasanter-api-cli2:0.11 /local Generation --config GenerateConfig.xml  export.json
 ```
 

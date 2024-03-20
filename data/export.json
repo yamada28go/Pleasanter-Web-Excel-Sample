@@ -1,0 +1,191 @@
+﻿{
+  "HeaderInfo": {
+    "AssemblyVersion": "1.3.40.0",
+    "BaseSiteId": 5224,
+    "Server": "http://localhost:8081",
+    "CreatorName": "Administrator",
+    "PackageTime": "2024-03-20T06:52:21.2391183+00:00",
+    "Convertors": [
+      {
+        "SiteId": 5224,
+        "SiteTitle": "Excel出力試験",
+        "ReferenceType": "Sites",
+        "IncludeData": false,
+        "Order": "[]"
+      },
+      {
+        "SiteId": 5226,
+        "SiteTitle": "データレコード",
+        "ReferenceType": "Issues",
+        "IncludeData": false
+      },
+      {
+        "SiteId": 5225,
+        "SiteTitle": "テンプレートファイル",
+        "ReferenceType": "Issues",
+        "IncludeData": false
+      }
+    ],
+    "IncludeSitePermission": true,
+    "IncludeRecordPermission": true,
+    "IncludeColumnPermission": true,
+    "IncludeNotifications": true,
+    "IncludeReminders": true
+  },
+  "Sites": [
+    {
+      "TenantId": 1,
+      "SiteId": 5224,
+      "Title": "Excel出力試験",
+      "SiteName": "",
+      "SiteGroupName": "",
+      "Body": "",
+      "GridGuide": "",
+      "EditorGuide": "",
+      "CalendarGuide": "",
+      "CrosstabGuide": "",
+      "GanttGuide": "",
+      "BurnDownGuide": "",
+      "TimeSeriesGuide": "",
+      "KambanGuide": "",
+      "ImageLibGuide": "",
+      "ReferenceType": "Sites",
+      "ParentId": 0,
+      "InheritPermission": 5224,
+      "SiteSettings": {
+        "Version": 1.017,
+        "ReferenceType": "Sites",
+        "NoDisplayIfReadOnly": false
+      },
+      "Publish": false,
+      "DisableCrossSearch": false,
+      "Comments": []
+    },
+    {
+      "TenantId": 1,
+      "SiteId": 5226,
+      "Title": "データレコード",
+      "SiteName": "",
+      "SiteGroupName": "",
+      "Body": "",
+      "GridGuide": "",
+      "EditorGuide": "",
+      "CalendarGuide": "",
+      "CrosstabGuide": "",
+      "GanttGuide": "",
+      "BurnDownGuide": "",
+      "TimeSeriesGuide": "",
+      "KambanGuide": "",
+      "ImageLibGuide": "",
+      "ReferenceType": "Issues",
+      "ParentId": 5224,
+      "InheritPermission": 5224,
+      "SiteSettings": {
+        "Version": 1.017,
+        "ReferenceType": "Issues",
+        "EditorColumnHash": {
+          "General": [
+            "IssueId",
+            "Ver",
+            "Title",
+            "Body",
+            "StartTime",
+            "CompletionTime",
+            "WorkValue",
+            "ProgressRate",
+            "RemainingWorkValue",
+            "Status",
+            "Manager",
+            "Owner",
+            "Comments",
+            "ClassA"
+          ]
+        },
+        "Columns": [
+          {
+            "ColumnName": "ClassA",
+            "LabelText": "置換用データ"
+          }
+        ],
+        "NoDisplayIfReadOnly": false
+      },
+      "Publish": false,
+      "DisableCrossSearch": false,
+      "Comments": []
+    },
+    {
+      "TenantId": 1,
+      "SiteId": 5225,
+      "Title": "テンプレートファイル",
+      "SiteName": "",
+      "SiteGroupName": "",
+      "Body": "",
+      "GridGuide": "",
+      "EditorGuide": "",
+      "CalendarGuide": "",
+      "CrosstabGuide": "",
+      "GanttGuide": "",
+      "BurnDownGuide": "",
+      "TimeSeriesGuide": "",
+      "KambanGuide": "",
+      "ImageLibGuide": "",
+      "ReferenceType": "Issues",
+      "ParentId": 5224,
+      "InheritPermission": 5224,
+      "SiteSettings": {
+        "Version": 1.017,
+        "ReferenceType": "Issues",
+        "EditorColumnHash": {
+          "General": [
+            "Title",
+            "AttachmentsA",
+            "Comments"
+          ]
+        },
+        "Columns": [
+          {
+            "ColumnName": "AttachmentsA",
+            "LabelText": "テンプレートファイル"
+          }
+        ],
+        "NoDisplayIfReadOnly": false
+      },
+      "Publish": false,
+      "DisableCrossSearch": false,
+      "Comments": []
+    }
+  ],
+  "Data": [],
+  "Permissions": [
+    {
+      "SiteId": 5224,
+      "Permissions": [
+        {
+          "ReferenceId": 5224,
+          "DeptId": 0,
+          "GroupId": 0,
+          "UserId": 1,
+          "PermissionType": 511
+        }
+      ]
+    },
+    {
+      "SiteId": 5226,
+      "Permissions": []
+    },
+    {
+      "SiteId": 5225,
+      "Permissions": []
+    }
+  ],
+  "PermissionIdList": {
+    "DeptIdList": [],
+    "GroupIdList": [],
+    "UserIdList": [
+      {
+        "UserId": 1,
+        "LoginId": "Administrator"
+      }
+    ]
+  }
+}

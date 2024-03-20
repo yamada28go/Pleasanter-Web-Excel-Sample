@@ -4,14 +4,12 @@ import { makeExcelMain } from "./makeExcel";
 export function makeExportButton() {
   // ボタン要素を作成
   const button = document.createElement("button");
-  button.id = "OpenExportSelectorDialogCommand";
+  button.id = "OpenExportExcelCommand";
   button.className =
     "button button-icon ui-button ui-corner-all ui-widget applied";
   button.type = "button";
   button.addEventListener("click", onClickExport);
   button.setAttribute("data-icon", "ui-icon-arrowreturnthick-1-w");
-  button.setAttribute("data-action", "OpenExportSelectorDialog");
-  button.setAttribute("data-method", "post");
 
   // アイコン要素を作成してボタンに追加
   const icon = document.createElement("span");
@@ -29,7 +27,6 @@ export function makeExportButton() {
   button.appendChild(textNode);
 
   // 作成したボタンをドキュメントに挿入
-  //document.body.appendChild(button);
   document.getElementById("MainCommands")?.appendChild(button);
 }
 
